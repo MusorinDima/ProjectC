@@ -15,7 +15,7 @@ int main(){
 
             char temp = massiv[i + 1];
             massiv[i + 1] = massiv[i];
-            massiv[i] = temp; //fjhsdgjkhjkfgh
+            massiv[i] = temp;
             i = -1;
         }
     }
