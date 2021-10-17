@@ -4,15 +4,15 @@ using namespace std;
 
 int main() {
 
-    int massiv[10];
+
     string line;
     ofstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
 
 
     for (int i = 0; i < 10; i++) {
-//        cout << massiv[i] << " ";
-        file << i << endl;
-        //cout << i;
+
+        file << i << " ";
+
     }
 
     file.close();
@@ -21,18 +21,15 @@ int main() {
     int sum(0);
     string s;
 
-    while (!fin.eof()) {
+
         getline(fin,line);
 
-        sum += stoi(line);
+        s = line.substr(0,line.find(" "));
+
+
+        sum += stoi(s);
         cout << sum << endl;
-        //fin >> s;
 
-
-        //sum = stoi(s);
-        //cout << sum << endl;
-    }
-    //sum += atoi(line);
 }
 
 
