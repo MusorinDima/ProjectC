@@ -7,7 +7,7 @@ int main(){
     char massiv[30];
     for (int i = 1; i < 31; i++)
     {
-        cout << "Vvedi simvl " << i << ":" << endl;
+        cout << "Vvedi simvol " << i << ":" << endl;
         cin >> massiv[i];
     }
     for (int i = 0; i < 30; i++) {
