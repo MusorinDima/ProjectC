@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
     string line;
-    int a;
     ifstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\3_4\\3_4txt");
 
     if(!file.is_open()){
