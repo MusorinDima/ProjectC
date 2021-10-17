@@ -34,5 +34,14 @@ int main(){
 
 
 
-
+//
+//    int ch = 0;
+//    string line;
+//    for (int i = 1; i < 11; i++) {
+//        file << ch;
+//    }
+//    file.close();
+//    ifstream f("4_1txt");
+//    getline(f,line);
+//    cout << line;
 }
