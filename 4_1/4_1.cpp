@@ -6,7 +6,7 @@ int main(){
 
     int massiv[10];
     string line;
-    ofstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
+    ofstream file("C:\\Users\\kmusorin\\CLionProjects\\ProjectC\\4_1\\4_1txt");
 
 
 
@@ -15,16 +15,16 @@ int main(){
         file << i << endl;
     }
     file.close();
-    ifstream fin("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
+    ifstream fin("C:\\Users\\kmusorin\\CLionProjects\\ProjectC\\4_1\\4_1txt");
     int sum;
     string s;
 
-    while (!fin.eof()) {
-        getline(fin, line);
+    while (fin) {
+        fin >> s;
 
 
-        sum += stoi(line);
-        cout << line << " " << sum << endl;}
+        sum += stoi(s);
+        cout << sum << endl;}
         //sum += atoi(line);
 
 
