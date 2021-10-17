@@ -7,10 +7,7 @@ int main(){
     int massiv[10];
     string line;
     ofstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
-   // for (int i = 0; i < 10; i++) {
-        //i >> massiv[i];
-        //cout << "Vvedi chislo " << i << ":" << endl;
-        //cin >> massiv[i];
+
 
     //}
     for (int i = 0; i < 10; i++) {
