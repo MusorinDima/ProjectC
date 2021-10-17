@@ -9,7 +9,7 @@ int main(){
     ofstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
 
 
-    //}
+
     for (int i = 0; i < 10; i++) {
 //        cout << massiv[i] << " ";
         file << i << endl;
