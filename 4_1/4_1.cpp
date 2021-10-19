@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 
     string line;
-    ofstream file("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
+    ofstream file("..\\4_1\\4_1txt");
 
 
     for (int i = 0; i < 10; i++) {
@@ -16,7 +16,7 @@ int main() {
     }
 
     file.close();
-    ifstream fin("C:\\Users\\dimam\\CLionProjects\\ProjectC++\\4_1\\4_1txt");
+    ifstream fin("..\\4_1\\4_1txt");
     int sum(0);
     int start = 0;
     string s;
