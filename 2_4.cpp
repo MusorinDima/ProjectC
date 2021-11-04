@@ -6,8 +6,12 @@ int main(){
     int N, count;
     cout << "Vvedi N:" << endl;
     cin >> N;
-    while (count < 10){
-        cout << ++N << endl;
+    while (count <= 9){
+        if (N == 0){
+            N++;
+        }
+        cout << N++ << endl;
         count++;
+
     }
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int found_z(double array[]){
     double pokasatel = (array[2] - array[1]);
-if (pokasatel == 0){
+if (pokasatel <= 0){
     cout << "Ne opredelen";
 }
 else{
