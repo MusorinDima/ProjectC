@@ -11,13 +11,7 @@ int main()
     cout << "Vvedi x " << endl;
     cin >> x;
     if (abs(x) < 1) {
-//        if (x != 0) {
-//            w = a * log(abs(x));
-//            cout << "w = " << w << endl;
-//        }
-//        else{
-//            cout << "ln (0) ne opredelen" << endl;
-//        }
+
         cout << ((x == 0) ? "ln (0) ne opredelen" : to_string(a * log(abs(x)))); // тернарное условие
     }
     else{
